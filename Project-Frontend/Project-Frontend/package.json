@@ -1,0 +1,49 @@
+{
+  "name": "wiselapsupport",
+  "version": "1.0.0",
+  "description": "[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)\r [![npm package][npm-coreui-badge]][npm-coreui]\r [![NPM downloads][npm-coreui-download]][npm-coreui]  \r [![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)\r [![npm package][npm-coreui-react-badge]][npm-coreui-react]\r [![NPM downloads][npm-coreui-react-download]][npm-coreui-react]",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coreui/react": "^4.1.2",
+    "@emotion/core": "^10.0.0",
+    "@syncfusion/ej2-react-navigations": "^19.4.56",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "antd": "^4.19.3",
+    "axios": "^0.26.1",
+    "core-js": "^3.21.1",
+    "react": "^17.0.0",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^17.0.0",
+    "react-pure-loaders": "^3.0.1",
+    "react-redux": "^7.2.8",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-toastify": "^8.2.0",
+    "reactstrap": "^9.0.1",
+    "saas": "^1.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.11"
+  }
+}
